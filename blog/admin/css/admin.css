@@ -1,0 +1,59 @@
+tbody {
+    text-align: center;
+}
+.admin , .admin_article {
+    background: #ccc;
+    text-align: center;
+}
+.add_article , .add_content {
+    width: 300px;
+    height: 30px;
+}
+.add_content {
+    height: 400px;
+    width: 1100px;
+}
+.btn_1 , .btn_2 {
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    background: #4E83A9;
+    color: black;
+    border: 0;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.btn_1:hover , .btn_2:hover {
+    background: #7FAFD2;
+}
+.btn_2 {
+    width: 200px;
+}
+.nametitle {
+    font-size: 30px;
+    font-weight: bold;
+}
+#headadmin {
+    left: 360px;
+}
+#add {
+    margin-top: 20px; 
+    font-size: 35px; 
+    font-weight: bold;
+    color: black;
+}
+#add:hover {
+    text-decoration: underline;
+}
+.edit_art , .del_art {
+    color: black;
+}
+a.edit_art:hover {
+    color: green;
+    text-decoration: underline;
+}
+a.del_art:hover {
+    color: red;
+    text-decoration: underline;
+}

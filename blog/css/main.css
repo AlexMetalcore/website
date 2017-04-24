@@ -1,0 +1,403 @@
+a{
+    text-decoration: none;
+}
+body {
+    background: #aaa;
+    padding: 0 0;
+    background-color: #FAE3A8;
+    background: url(../img/fonbody.jpg);
+    background-size: 100%;
+    margin: 0 0;
+}
+body.images , body.image , body.aboutme , body.kontakt {
+    background: #aaa;
+    padding: 0 0;
+    background-color: #FAE3A8;
+    background: url(../img/fon_articles.jpg);
+    background-size: 100%;
+    margin: 0 0;
+}
+body.image {
+    background: url(../img/fon_article.jpg);
+    background-size: 100%;
+}
+body.aboutme {
+    background: url(../img/aboutme.jpg);
+    background-size: 100%;
+}
+body.kontakt {
+    background: url(../img/kontact.jpg);
+    background-size: 100%;
+}
+.head {
+    position: absolute;
+    left: 500px;
+    font-size: 40px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.head a {
+    color: #C92513;
+        
+}
+.head a:hover {
+    text-decoration: underline;
+}
+.nav {
+    width: 1200px;
+    position: relative;
+    height: 150px;
+    margin: 0 auto;
+    background-color: #AFBA3B;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+}
+.fixed {
+    position: fixed;
+    opacity: 0.95;
+    top: 0;
+    left: 75px;
+    z-index: 10;
+    margin: 0 auto;
+}
+.menu {
+    position: relative;
+    float: left;
+    margin: 0 20px;
+    top: 90px;
+    width: 600px;
+    left: 40px;
+    padding: 0 0;
+}
+.nav .menu a {
+    display: inline-block;
+    margin:  0px 20px;
+    padding:  0px 0px;
+    font-size: 20px;
+    height: 30px;
+    text-align: center;
+    width: 100px;
+    font-weight: bold;
+    line-height: 30px;
+    color: black;
+}
+.nav .menu a:hover , .active , .nav .menu a:active{
+    background-color: #DDE67F;
+    border-radius: 15px;
+}
+.nav .menu a:active ,  .nav .menu a:visited {
+    background-color: #DDE67F;
+}
+.logo {
+    top: 10px;
+    width: 200px;
+    float: left;
+    position: relative;
+}
+.logo a {
+    margin: 10px 10px;
+}
+.reglog {
+    position: absolute;
+    right: 10px;
+    margin: 10px 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+.reglog #reg {
+    background: #4CE015;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+}
+.reglog #log {
+    background: #4CE015;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    margin-right: 5px;
+}
+.reglog a {
+    padding: 0 10px;
+    color: black;
+}
+.reglog a:hover {
+    /*color: #372525;*/
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+.search {
+    position: relative;
+    top: 90px;
+    width: 295px;
+    float: right;
+}
+.search .field , .search .button{
+    height: 25px;
+    border-radius: 10px;   
+}
+.search .field {
+    border: 2px solid #ccc;
+}
+.search .button {
+    height: 30px;
+    font-family: sans-serif;
+    background-color: #5E9D48;
+    cursor: pointer;
+    border: 0;
+    width: 70px;
+    margin: 0 15px;
+}
+.search .button:hover {
+    background: #7DCB62;
+    box-shadow: 1px 1px 1px 1px rgba(0 , 0 , 0 , 0.2)
+}
+.content {
+    padding: 0 0;
+    width: 1200px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 2px 2px rgba(0 , 0 , 0 , 0.3);
+    background: #fafafa;
+    min-height: 400px;
+}
+.articles , .article {
+    max-width: 100%;
+    position: relative;
+    display: table;
+    padding: 15px 20px;
+}
+.content li {
+    list-style: none;
+}
+.content span {
+    font-size: 30px;
+    position: relative;
+    padding: 5px 15px;
+    max-width: 100%;
+    float: left;
+}
+aside {
+    float: left;
+    width: 250px;
+    /*min-height: 200px;*/
+    height: auto;
+    position: relative;
+    background: #F4E6C3;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+}
+aside li {
+    margin: 20px 0px;
+    color: silver;
+    display: block;
+    position: relative;
+    text-align: justify;
+    margin: 15px;
+}
+aside li a {
+    text-decoration: underline;
+    color: black;
+    font-family: Times New Roman italic;
+}
+aside li a:hover {
+    padding: 0 5px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+footer {
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+    background: #A7976C;
+    position: relative;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+}
+.made {
+    margin: 0 0;
+    top: -55px;
+    position: relative;
+    color: black;
+}
+.made a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+.made a:hover {
+    text-decoration: underline
+}
+.btn {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background: #8AC176;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #AAE495;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0 , 0 , 0 , 0.3);
+}
+.article .article_1 {
+    line-height: 2em;
+    border: 1px solid #F1F1F1;
+}
+.title {
+    font-weight: normal;
+    font-size: 35px;
+}
+.title a {
+    color: black;
+}
+.title a:hover {
+    text-decoration: underline;
+    color: black;
+}
+h3.title {
+    padding: 0 0;
+    margin: 10px 0px;
+}
+a.readto {
+    font-weight: bold;
+    color: black;
+}
+
+a.readto:hover {
+    padding: 0 5px;
+    transition: 0.5s;
+}
+
+.img , a img.preview {
+    float: left;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+a img.preview {
+    width: 100px;
+}
+a img.preview:hover {
+    opacity: 0.9;
+}
+
+.pagination {
+    position: relative;
+    height: 40px;
+}
+.pagination li  {
+    display: inline-block;
+}
+.pagination ul {
+    text-align: center;
+}
+
+.pagination li a {
+    background: #ccc;
+    width: 40px;
+    height: 30px;
+    display: block;
+    font-size: 20px;
+    color: black;
+    line-height: 30px;
+}
+.pagination li a:hover {
+    background: #EEEDE2;
+    text-decoration: underline;
+}
+.comment {
+    font-size: 20px;
+}
+.comment a {
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+.comment a:hover {
+    color: green;
+    text-decoration: underline;
+}
+.formlog , .formreg {
+    display: none;
+    width: 300px;
+    height: 200px;
+    left: 37%;
+    top: 150px;
+    background: #fafafa;
+    position: fixed;
+    z-index: 110;
+    padding: 20px 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+span.close {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    background: #ccc;
+    border-radius: 10px;
+    height: 20px;
+    line-height: 15px;
+    width: 20px;
+    cursor: pointer;
+}
+.formreg {
+    height: 280px;
+}
+.overlay {
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: 100;
+    display: none;
+}
+.overlay:hover {
+    cursor: pointer;
+}
+
+.formlog .log_input , .formreg .reg_input {
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    background: white;
+    width: 100%;
+}
+
+input.log , input.reg {
+    height: 30px;
+    width: 100%;
+    margin-top: 15px;
+    background: #00B0F3;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    line-height: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+input.log:hover , input.reg:hover {
+    background: #008CEC;
+}
+ul.kontact{
+    margin: 0;
+}
+ul.kontact li a {
+    color: black;
+    font-style: italic;
+}
+ul.kontact li a:hover {
+    text-decoration:  underline;
+}
+.searchart {
+    font-size: 30px;
+    font-style: italic;
+}
