@@ -77,8 +77,6 @@
             die (mysqli_error($connect_db));
         return mysqli_affected_rows($connect_db);
     }
-/*SELECT * FROM `blog`.`articles` WHERE (CONVERT(`title` USING utf8) LIKE '%javascript%')*/
-
     function article_same ($connect_db , $search){
         $search = $_POST['search'];
         $search = trim($search);
